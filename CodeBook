@@ -1,1 +1,19 @@
+GitHub contains a code book that modifies and updates the available codebooks with the data to indicate all the 
+variables and summaries calculated, along with units, and any other relevant information.
 
+
+  The original data was transformed by
+
+* Merging the training and the test sets to create one data set.
+* Extracting only the measurements on the mean and standard deviation for each measurement.
+* Using descriptive activity names to name the activities in the data set
+* Appropriately labeling the data set with descriptive activity names.
+* Creating a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+  
+  Variables
+* "subject Id" -> [1:30]
+* "ictivity Id" -> (1 WALKING, 2 WALKING_UPSTAIRS, 3 WALKING_DOWNSTAIRS, 4 SITTING, 5 STANDING, 6 LAYING)
+* Measurements -> new_data set = the mean and standard deviation for each measurement from original dataset "fetures.txt"
+                  summary_data set = from "new_data set", A tidy data set with the average of each variable for each activity and 
+                  each subject.
