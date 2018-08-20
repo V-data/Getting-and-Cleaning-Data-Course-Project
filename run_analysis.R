@@ -4,11 +4,11 @@ library(data.table)
 
 #Download data set
 
-# if(!file.exists("./data")){dir.create("./data")}
-# fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-# download.file(fileUrl, destfile = "./data/phonedata.zip", method = "curl")
-# unzip(zipfile="./data/phonedata.zip",exdir="./data")
-# setwd("./data/UCI HAR Dataset")
+if(!file.exists("./data")){dir.create("./data")}
+fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+download.file(fileUrl, destfile = "./data/phonedata.zip", method = "curl")
+unzip(zipfile="./data/phonedata.zip",exdir="./data")
+setwd("./data/UCI HAR Dataset")
 
 # Load activity labels and extract features needed
 
