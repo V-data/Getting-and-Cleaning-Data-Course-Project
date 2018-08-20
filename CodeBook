@@ -15,5 +15,6 @@ variables and summaries calculated, along with units, and any other relevant inf
 * "subject Id" -> [1:30]
 * "ictivity Id" -> (1 WALKING, 2 WALKING_UPSTAIRS, 3 WALKING_DOWNSTAIRS, 4 SITTING, 5 STANDING, 6 LAYING)
 * Measurements -> new_data set = the mean and standard deviation for each measurement from original dataset "fetures.txt"
-                  summary_data set = from "new_data set", A tidy data set with the average of each variable for each activity and 
-                  each subject.
+                  summary_data set = from "new_data set", A tidy data set with the average of each variable for each activity 
+                  and each subject.
+                
